@@ -18,7 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
         self.window!.backgroundColor = UIColor.whiteColor()
+        
+        let storyboard = UIStoryboard(name: "Storyboard", bundle: NSBundle.mainBundle())
+        let vc = storyboard.instantiateInitialViewController() as ViewController
+        self.window!.rootViewController = vc
         self.window!.makeKeyAndVisible()
+
         return true
     }
 
