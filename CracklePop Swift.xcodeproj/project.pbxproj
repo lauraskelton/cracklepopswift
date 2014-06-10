@@ -12,6 +12,7 @@
 		82B3C7BA1946773200EF957A /* CracklePop_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3C7B91946773200EF957A /* CracklePop_SwiftTests.swift */; };
 		82B3C7C41946775700EF957A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B3C7C31946775700EF957A /* Storyboard.storyboard */; };
 		82B3C7C6194677D200EF957A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B3C7C5194677D200EF957A /* ViewController.swift */; };
+		82B3C7C81946850C00EF957A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 82B3C7C71946850C00EF957A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		82B3C7B91946773200EF957A /* CracklePop_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CracklePop_SwiftTests.swift; sourceTree = "<group>"; };
 		82B3C7C31946775700EF957A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		82B3C7C5194677D200EF957A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82B3C7C71946850C00EF957A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		82B3C79D1946773200EF957A = {
 			isa = PBXGroup;
 			children = (
+				82B3C7C71946850C00EF957A /* README.md */,
 				82B3C7A81946773200EF957A /* CracklePop Swift */,
 				82B3C7B61946773200EF957A /* CracklePop SwiftTests */,
 				82B3C7A71946773200EF957A /* Products */,
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B3C7C81946850C00EF957A /* README.md in Sources */,
 				82B3C7C6194677D200EF957A /* ViewController.swift in Sources */,
 				82B3C7AC1946773200EF957A /* AppDelegate.swift in Sources */,
 			);
